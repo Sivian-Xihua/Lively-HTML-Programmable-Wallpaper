@@ -1,6 +1,6 @@
 # Lively-HTML-Programmable-Wallpaper
 An interactive, programmable wallpaper powered by Lively and HTML.
-1.git网址:
+
 2.提供了动态增加拖尾的功能，虽然路径是任意的，但拖尾文件(.js)本身需要实现一些特定的函数！
 public interface ITrail
 {
