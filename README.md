@@ -1,3 +1,16 @@
+已知bug:
+index.html:
+
+window.addEventListener('blur', function () {
+
+scene.pointerLeave();
+
+});
+
+删掉或者注释这一句，否则绳子抓不住(实际上是抓住后会立即call这个回调，松开绳子)
+
+================================================
+
 # Lively-HTML-Programmable-Wallpaper
 An interactive, programmable wallpaper powered by Lively and HTML.
 
